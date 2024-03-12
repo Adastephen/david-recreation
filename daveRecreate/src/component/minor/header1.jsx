@@ -1,4 +1,5 @@
 import { React } from "react";
+import { HeaderList} from '../Major/header/header';
 
 function Header1() {
   return (
@@ -27,7 +28,9 @@ function Header1() {
           </div>
 
           {/*the second column in the header1 */}
-          <div></div>
+          <div>
+            <HeaderList />
+          </div>
         </div>
       </div>
     </>
